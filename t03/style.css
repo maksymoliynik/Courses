@@ -1,0 +1,27 @@
+button{
+  background: white; /* Цвет фона под ссылкой */ 
+  color:  green ;
+  
+}
+button:hover{
+  background:red;
+}
+button:visited{
+  color: blue;
+}
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+}
+input{
+  color:green;
+}
+label {
+  margin: .4rem 0;
+}
+input:visited{
+  color: red;
+}
+input:hover{
+  color: red;
+}
