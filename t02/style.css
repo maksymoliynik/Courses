@@ -1,0 +1,14 @@
+.table, 
+th{
+    border: 1px solid #333;
+    background-color: rgb(3, 3, 3);
+    color: white; 
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.thead,
+tfoot {
+    background-color: rgb(3, 3, 3);
+    color: rgb(2, 2, 2);
+}

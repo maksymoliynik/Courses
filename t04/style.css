@@ -1,0 +1,19 @@
+#circle {
+background: #f00;
+width: 350px;
+height: 350px;
+border-radius: 50%;
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+div {
+border:1px solid black;
+box-shadow: 10px 10px 5px grey;
+width: 900px;
+margin-left:auto;
+margin-right:auto;
+background-color:white;
+}
