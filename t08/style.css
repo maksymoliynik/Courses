@@ -1,0 +1,33 @@
+table {
+    background-image: linear-gradient(to right, #6e0000, antiquewhite);
+}
+th {
+    color: #ffe369;
+    font-weight: bold;
+    background-color: rgba(189, 195, 199, 0.05);
+    padding: 10px;
+}
+td:first-child {
+    color: white;
+    font-weight: bold;
+    background-color: rgba(143, 148, 251, 0.1);
+}
+td {
+color: midnightblue;
+border: 2px;
+border-color: rgba(189, 195, 199, 0.05);
+padding-right: 50px;
+padding-left: 50px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+a {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+td:nth-child(4) {
+    color: white;
+    background-color: darkred;
+}

@@ -1,0 +1,53 @@
+<h1>Superhero form</h1>
+<form action="/action_page.php">
+    <fieldset>
+    <fieldset>
+        <h3>About The Superhero</h3>
+    <label for="rname">Real Name:</label>
+    <input type="text" placeholder="Real Name" >
+    <label for="sname">Superhero Name:</label>
+    <input type="text" placeholder="Superhero Name">
+    <label for="Age">Age:</label>
+    <input type="text"  placeholder="Age">
+    
+    <label for="about">About</label>
+    <input type="text"  placeholder="Info about superheroes, max 500 symbols" size="50" maxlength="500"><br></br>
+    <label for="Photo">Photo</label>
+    <input name="myFile" type="file">
+</fieldset>
+    <fieldset>
+        <h3>Powers</h3>  
+        <input type="checkbox" id="tk">
+  <label for="tk">Telekinesis</label>
+  <input type="checkbox" id="shapelifting" >
+  <label for="shapelifting"> Shapelifting</label>
+  <input type="checkbox" id="sss">
+  <label for="sss">Superstrength or speed</label>
+  <input type="checkbox" id="fly">
+  <label for="fly">Flight</label>
+  <input type="checkbox" id="elc">
+  <label for="elc">Elemental Control</label>
+  <input type="checkbox" id="other">
+  <label for="other">Other</label>
+  <div class="slidecontainer">
+    <p>Level of control:</p>
+    <input type="range" min="1" max="100" value="50">
+    </fieldset>
+    <fieldset>
+        <h3>Origin of Powers</h3>   
+        <input type="radio" id="unk" >
+        <label for="unk">Unknown</label>
+        <input type="radio" id="fla" >
+        <label for="fla">Freak lab accident</label>
+         <input type="radio" id="cbawb">
+        <label for="cbawb">Chosen by an ancient wise being</label>
+        <input type="radio" id="nh">
+        <label for="nh">The superhero is not a human</label>
+        <input type="radio" id="other" >
+        <label for="other">Other</label>
+    </fieldset>
+</fieldset>
+<input type="reset" value="Clear">
+<input type="submit" value="Send">
+  </form> 
+  
