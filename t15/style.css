@@ -1,3 +1,3 @@
-  .thanos:hover ~ .people img:nth-child(2n+1){
-    display: none;
-  }
+.thanos:hover ~ .people span:nth-child(2n+1){
+  visibility: hidden;
+}
